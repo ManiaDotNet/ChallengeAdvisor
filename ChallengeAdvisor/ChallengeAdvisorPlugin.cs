@@ -4,7 +4,7 @@ using System.Linq;
 
 namespace ManiaNet.DedicatedServer.Controller.Plugins.ChallengeAdvisor
 {
-    [RegisterPlugin(author: "Banane9", name: "Challenge Advisor")]
+    [RegisterPlugin("ChallengeAdvisor", author: "Banane9", name: "Challenge Advisor")]
     public class ChallengeAdvisorPlugin : ControllerPlugin
     {
         public override bool Load(ServerController controller)
